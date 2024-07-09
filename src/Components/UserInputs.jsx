@@ -11,16 +11,16 @@ export default function UserInput({handleChange , userInput}){
                 <input 
                     type="number" 
                     required 
-                    value={userInput.intialInvestment} 
-                    onChange={(event)=>handleChange('intialInvestment' , event.target.value)} />
+                    value={userInput.initialInvestment} 
+                    onChange={(event)=>handleChange('initialInvestment' , event.target.value)} />
             </p>
             <p>
                 <label>Anual Investment</label>
                 <input 
                     type="number" 
                     required
-                    value={userInput.anualInvestment} 
-                    onChange={(event)=>handleChange('anualInvestment' , event.target.value)}
+                    value={userInput.annualInvestment} 
+                    onChange={(event)=>handleChange('annualInvestment' , event.target.value)}
                 />
             </p>
             </div>
